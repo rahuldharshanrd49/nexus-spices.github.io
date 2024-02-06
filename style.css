@@ -1,0 +1,149 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+#navbar {
+  background-color: black;
+  color: blue;
+  position: sticky;
+  padding: 0.5rem 5rem;
+  z-index: 100;
+  box-shadow: 5px 5px 20px black;
+}
+.navbar-brand {
+  font-size: 25px;
+  font-weight: 700;
+  color: chartreuse;
+}
+.icon-bar {
+  background-color: aliceblue;
+}
+.navbar-nav {
+  color: beige;
+}
+#menu a {
+  color: #fff;
+  background-color: black;
+}
+#menu a:hover {
+  border-bottom: 2px solid chartreuse;
+}
+#rm a {
+  background-color: black;
+  color: black;
+}
+section {
+  width: 100%;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  margin-top: 0%;
+}
+#Home {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)),
+    url(./img/spices.jpeg);
+  background-size: cover;
+  background-position: center;
+  margin-top: 0%;
+  flex-direction: column;
+}
+#Home h1 {
+  color: #fff;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  text-shadow: 0px 2px black;
+}
+#Home p {
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.input-group {
+  height: 30px;
+  display: flex;
+  gap: 2%;
+}
+.input-group .btn {
+  background-color: chartreuse;
+  color: black;
+  gap: 20%;
+}
+#organic {
+  background-color: rgb(255, 0, 115);
+}
+#organic h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+  font-weight: 500;
+}
+#products {
+  background-color: darkgray;
+}
+.card {
+  background-color: #fff;
+  margin-top: 20px;
+  border: none !important;
+  border-radius: 20px !important;
+  box-shadow: 15px 20px 20px rgba(0, 0, 0, 0.3);
+  align-items: center;
+  overflow: hidden;
+}
+#products img {
+  height: 200px;
+  width: 300px;
+}
+#products img:hover {
+  transform: scale(1.2);
+  transition: 0.2s;
+}
+#products h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 500;
+  color: black;
+  letter-spacing: 2px;
+}
+.card-body {
+  background-color: chartreuse;
+
+  color: black;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+.card-body .btn {
+  background-color: black;
+}
+.rahul {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+#contact {
+  background-color: chartreuse;
+}
+.rahul .btn {
+  background-color: black;
+  color: chartreuse;
+}
+.rahul {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#sign form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+#sign label {
+  margin-top: 10px;
+}
+#sign button {
+  margin-top: 20px;
+}
+.hello {
+  margin-top: 10px;
+}
+#sign {
+  background-color: dimgrey;
+}

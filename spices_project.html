@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spices</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav class="navbar navbar-fixed-top" id="navbar">
+        <div class="navbar-heading">
+          <button
+            type="button"
+            class="navbar-toggle"
+            data-toggle="collapse"
+            data-target="#ran"
+          >
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a href="#" class="navbar-brand">Spices</a>
+        </div>
+        <div class="collapse navbar-collapse" id="ran">
+          <ul class="nav navbar-nav" id="menu">
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#organic">About</a></li>
+            <li><a href="#products">Products</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="hello">
+                <a href="#sign"
+                  ><button
+                    class="btn"
+                    style="background-color: chartreuse; color: #000"
+                  >
+                    <i class="glyphicon glyphicon-log-in"></i> Sign in
+                  </button></a
+                >
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <section id="Home">
+        <h1>ORGANIC SPICES</h1>
+        <p>"All variety of spices available in rich quaity"</p>
+        <div class="input-group">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="enter your mail"
+          />
+          <button class="btn sigin">Submit</button>
+        </div>
+      </section>
+
+      <section id="organic">
+        <div class="container-fluid"></div>
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              src="img/kisspng-organic-food-argan-oil-acne-organic-material-5b19af245a9189.396565241528409892371.png"
+              class="img img-responsive img-fluid"
+            />
+          </div>
+          <div class="col-md-6">
+            <h1>About us</h1>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vel,
+              illum ducimus voluptatum eos quos enim sequi odio dolorum. Amet
+              esse cupiditate obcaecati rerum vero necessitatibus quisquam
+              asperiores doloremque quam ratione.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="products">
+        <div class="container m-5">
+          <h1 class="text-center">OUR PRODUCTS</h1>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./img/turmeric.jpeg"
+                  class="img img-responsive card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Turmeric powder</h5>
+                  <a href="#" class="btn">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./img/chilli.jpg"
+                  class="img img-responsive card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Chilli powdwer</h5>
+                  <a href="#" class="btn btn-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-md-4">
+              <div class="card">
+                <img
+                  src="./img/garam.jpg"
+                  class="img img-responsive card-img-top"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">Garam powder</h5>
+                  <a href="#" class="btn btn-success">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="layer">
+              <div class="col-md-4">
+                <div class="card">
+                  <img src="./img/dhaniya.jpg" class="img img-responsive" />
+                  <div class="card-body">
+                    <h5 class="card-title">Daniya powder</h5>
+                    <a href="#" class="btn btn-success">Add to cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="row">
+          <div class="col-md-12">
+            <h1 class="text-left glyphicon glyphicon-user">CONTACT US</h1>
+            <form action="contact.php" method="post">
+              <div class="rahul">
+                <label for="name">Enter your name</label>
+                <input type="text" required name="nmae" />
+              </div>
+              <div class="rahul">
+                <label for="number">Enter your number</label>
+                <input type="text" required name="number" />
+              </div>
+              <div class="rahul">
+                <label for="address">Enter your address</label>
+                <input type="text" nam="address" />
+              </div>
+              <div class="rahul">
+                <button class="btn">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+      <section id="sign">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 col-lg-12">
+              <form action="connect.php" method="post">
+                <label for="fname">Enter your name</label>
+                <input
+                  type="text"
+                  placeholder="enter your name"
+                  class="form-control"
+                  name="fname"
+                  id="fname"
+                  required
+                />
+                <label for="fmail">Enter your mail</label>
+                <input
+                  type="text"
+                  placeholder="enter your mail"
+                  class="form-control"
+                  name="femail"
+                  id="fmail"
+                  required
+                />
+                <label for="fpassword">Password</label>
+                <input
+                  type="password"
+                  placeholder="password"
+                  class="form-control"
+                  name="fpassword"
+                  id="fpassword"
+                  required
+                />
+                <button class="btn" style="background-color: chartreuse">
+                  Create Account
+                </button>
+              </form>
+            </div>
+            <div class="col-md-6"></div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
